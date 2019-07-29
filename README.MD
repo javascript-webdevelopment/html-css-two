@@ -20,3 +20,19 @@ There are five main values we can give this property:
 `fixed` - this will position the element relative to the view port. This means that the element will always be displayed to our screen.
 
 `sticky` - this will position an element based on the usersw scroll position. It toggles between fixed and relative. It will be relative until it hits a scroll position threshold then become fixed. 
+
+## Display
+
+The `display` property is what is used to specify the display behavour of the element.
+
+The values we can give the display preoperty are:
+
+`block` - A block-level element always starts on a new line and takes up the full width available.
+
+`inline` - An inline element does not start on a new line and only takes up as much width as necessary.
+
+`inline-block` - Works just like inline, but we can modify the height and width.
+
+`flex` - This will declare the element to be a flex container and use flex box tools for child elements.
+
+`none` - This is used to hide or show an element without actually deleting them.
