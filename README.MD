@@ -29,10 +29,14 @@ The values we can give the display preoperty are:
 
 `block` - A block-level element always starts on a new line and takes up the full width available.
 
-`inline` - An inline element does not start on a new line and only takes up as much width as necessary.
+`inline` - An inline element does not start on a new line and only takes up as much width as necessary. This will not allow you to modify the height and width.
 
 `inline-block` - Works just like inline, but we can modify the height and width.
 
 `flex` - This will declare the element to be a flex container and use flex box tools for child elements.
 
 `none` - This is used to hide or show an element without actually deleting them.
+
+Example:
+![Display Values](images/displays.png)
+

@@ -1,7 +1,7 @@
 /* Position Examples */
 body {
     /* turn height into 200vh when showing sticky */
-    height: 200vh;
+    min-height: 200vh;
 }
 
 /* Static */
