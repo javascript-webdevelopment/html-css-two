@@ -80,3 +80,18 @@ Flex Properties:
 
 
 ## Overflow
+
+`overflow` is the property we can use to determine what happens to elements that flow over the height or width of an element.
+
+Values:
+    * visible - this is the default overflow property and will still display overflowed elements
+    * hidden - this will hide all of the elements that overflow
+    * scroll - this will make the container element scroll to see the overflowed elements
+
+# Z-index
+
+The `z-index` can be used to determine what element to show when they stack on each other. The higher the index value, the stronger the presence meaning it will overlap other elements and be displayed. `1` is the default z-index value.
+
+```css
+z-index: 4;
+```
