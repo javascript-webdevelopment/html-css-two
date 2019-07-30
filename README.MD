@@ -118,3 +118,10 @@ box-shadow: 1px 1px 1px 1px black;
 ```
 
 The values go `h-offset`, `v-offset`, `blur`, `spread`, `color`.
+
+
+
+
+### Resources
+
+[CSS Tricks Flex-Box](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
