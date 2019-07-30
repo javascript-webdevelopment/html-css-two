@@ -88,10 +88,20 @@ Values:
     * hidden - this will hide all of the elements that overflow
     * scroll - this will make the container element scroll to see the overflowed elements
 
-# Z-index
+## Z-index
 
 The `z-index` can be used to determine what element to show when they stack on each other. The higher the index value, the stronger the presence meaning it will overlap other elements and be displayed. `1` is the default z-index value.
 
 ```css
 z-index: 4;
 ```
+
+## Box Shadow
+
+The `box-shadow` property is what can be used to added shadows to an element. This will help to make a popping effect inside our web page
+
+```css
+box-shadow: 1px 1px 1px 1px black;
+```
+
+The values go `h-offset`, `v-offset`, `blur`, `spread`, `color`.
